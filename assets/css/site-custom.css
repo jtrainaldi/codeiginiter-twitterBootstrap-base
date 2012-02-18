@@ -1,0 +1,131 @@
+
+/* ==|== primary styles =====================================================
+   Author: 
+   ========================================================================== */
+
+  /* USED FOR TESTING/DEBUG PURPOSES - Comment out or remove for production */
+  .debug {background-color:#333 !important;}
+  /* END OF - USED FOR TESTING/DEBUG PURPOSES - Comment out or remove for production */
+
+  /* *************************************
+  ** FIXED BOTTOM POSITION FOOTER STYLES
+  ** Author: http://ryanfait.com/resources/footer-stick-to-bottom-of-page/; 
+  ** Note:  Uncomment and adjust acording to your design.  
+  **      - Remember wrapper bottom-margin must match footer height
+  **
+  ************************************** */
+    /* 
+    html, body { height: 100%; }
+    #wrapper {
+      min-height: 100%;
+      height: auto !important;
+      height: 100%;
+      margin: 0 auto -225px; 
+    }
+    footer, .push { height: 225px; }
+
+    */
+  /* *************************************
+  ** END OF - FIXED BOTTOM POSITION FOOTER STYLES 
+  ************************************** */
+
+
+  body { }
+  h1, h2, h3, h4, h5 {
+    
+  }
+
+  /* #main-container (#wrapper in FIXEX BOTTOM POSITION ) */
+  #main-container { }
+
+  /* #main - main body that divides header and footer */
+  #main { }
+
+  /* header style */
+  header { }
+
+  /* footer style */
+  footer { }
+
+
+
+
+
+/* *************************************
+** TYPOGRAPHY STYLES 
+************************************** */
+.align-center {text-align:center;}
+.align-left {text-align:left;}
+.align-right {text-align:right;}
+
+.important { color: #ad1010; }
+
+.uppercase { text-transform:uppercase; }
+.hide { display: none; }
+
+/* *************************************
+** END OF - TYPOGRAPHY STYLES 
+************************************** */
+
+
+/* *************************************
+** MARGIN/PADDING STYLES 
+************************************** */
+.innertube { padding:10px 10px; }
+
+.margin-top-0 { margin-top:0 !important; }
+.margin-top-5 { margin-top:5px !important; }
+.margin-top-10 { margin-top:10px !important; }
+.margin-top-15 { margin-top:15px !important; }
+.margin-top-20 { margin-top:20px !important; }
+.margin-top-25 { margin-top:25px !important; }
+
+.margin-bottom-0 { margin-bottom:0 !important; }
+.margin-bottom-5 { margin-bottom:5px !important; }
+.margin-bottom-10 { margin-bottom:10px; }
+.margin-bottom-15 { margin-bottom:15px !important !important; }
+.margin-bottom-20 { margin-bottom:20px !important; }
+.margin-bottom-25 { margin-bottom:25px !important; }
+.margin-bottom-50 { margin-bottom:50px !important; }
+
+.padding-top-0 { padding-top:0 !important; }
+.padding-top-5 { padding-top:5px !important; }
+.padding-top-10 { padding-top:10px !important; }
+.padding-top-15 { padding-top:15px !important; }
+.padding-top-20 { padding-top:20px !important; }
+.padding-top-25 { padding-top:25px !important; }
+
+.padding-bottom-0 { padding-bottom:0 !important; }
+.padding-bottom-5 { padding-bottom:5px !important; }
+.padding-bottom-10 { padding-bottom:10px !important; }
+.padding-bottom-15 { padding-bottom:15px !important; }
+.padding-bottom-20 { padding-bottom:20px !important; }
+.padding-bottom-25 { padding-bottom:25px !important; }
+/* *************************************
+** END OF - MARGIN/PADDING STYLES 
+************************************** */
+
+
+/* *************************************
+** END OF - ROUNDED CORNER STYLES 
+************************************** */
+
+.rounded, .rounded-top, .rounded-left, .rounded-tl { -moz-border-radius-topleft: 4px/*{cornerRadius}*/; -webkit-border-top-left-radius: 4px/*{cornerRadius}*/; -khtml-border-top-left-radius: 4px/*{cornerRadius}*/; border-top-left-radius: 4px/*{cornerRadius}*/; }
+.rounded, .rounded-top, .rounded-right, .rounded-tr { -moz-border-radius-topright: 4px/*{cornerRadius}*/; -webkit-border-top-right-radius: 4px/*{cornerRadius}*/; -khtml-border-top-right-radius: 4px/*{cornerRadius}*/; border-top-right-radius: 4px/*{cornerRadius}*/; }
+.rounded, .rounded-bottom, .rounded-left, .rounded-bl { -moz-border-radius-bottomleft: 4px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 4px/*{cornerRadius}*/; border-bottom-left-radius: 4px/*{cornerRadius}*/; }
+.rounded, .rounded-bottom, .rounded-right, .rounded-br { -moz-border-radius-bottomright: 4px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 4px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 4px/*{cornerRadius}*/; border-bottom-right-radius: 4px/*{cornerRadius}*/; }
+
+
+/* *************************************
+** END OF - UI CORNER STYLES 
+************************************** */
+
+@media (max-width: 480px) {
+
+}
+@media (max-width: 768px) {
+
+}
+@media (min-width: 768px) and (max-width: 980px) {
+
+}
